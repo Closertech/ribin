@@ -17,9 +17,11 @@ const Ribin = () => {
         <p className={styles.giftMem}>Gift Mem rable</p>
         <p className={styles.giftMem}>Experiences</p>
       </div>
-      <div className={styles.toYourLovedContainer}>
+      <div className={styles.toYourLovedContainer} style={{marginTop: '40px'}}>
         <p className={styles.giftMem}>to your loved ones from</p>
-        <p className={styles.giftMem}>Anywhere. Anytime!</p>
+        <div>
+        <p className={styles.giftMem} style={{position: "relative", top:"50px"}}>Anywhere. Anytime!</p>
+        </div>
       </div>
       <img className={styles.layer1Icon} alt="" src="/layer-1.svg" />
       <div className={styles.ribinChild2} />
@@ -87,20 +89,20 @@ const Ribin = () => {
       <div className={styles.companyOurServiceContainer}>
         <p className={styles.giftMem}>COMPANY</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem}>OUR SERVICE</p>
+        <p className={styles.giftMem} style={{position: 'relative', top:'100px'}}>OUR SERVICE</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem}>TESTIMONIAL</p>
+        <p className={styles.giftMem} style={{position: 'relative', top:'200px'}}>TESTIMONIAL</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem}>FEATURED</p>
+        <p className={styles.giftMem} style={{position: 'relative', top:'300px'}}>FEATURED</p>
       </div>
       <div className={styles.contactUsFaqContainer}>
         <p className={styles.giftMem}>CONTACT US</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem}>FAQ</p>
+        <p className={styles.giftMem} style={{position: 'relative', top:'100px'}}>FAQ</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem}>TERM OF SERVICE</p>
+        <p className={styles.giftMem} style={{position: 'relative', top:'200px', right:'140px'}}>TERM OF <span style={{position: 'relative', left:'170px'}} >SERVICE</span></p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem}>COPYRIGHT</p>
+        <p className={styles.giftMem} style={{position: 'relative', top:'300px'}}>COPYRIGHT</p>
       </div>
       <div className={styles.wantToGiveContainer}>
         <p className={styles.giftMem}>Want to give something to</p>
