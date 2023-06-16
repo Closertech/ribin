@@ -1,5 +1,34 @@
 import styles from "./Ribin.module.css";
+import { useNavigate } from "react-router-dom";
+import React, { useRef } from 'react';
+
 const Ribin = () => {
+   
+  
+  const sectionOneRef = useRef(null);
+  const sectionTwoRef = useRef(null);
+  const sectionThreeRef = useRef(null);
+  const sectionFourRef = useRef(null);
+
+  
+  const navigateToBrands = () => {
+    sectionOneRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const navigateToCollection = () => {
+    sectionTwoRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+  
+  const navigateToAboutUs = () => {
+    sectionThreeRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  const navigateToDownload = () => {
+    sectionFourRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
+
+
   return (
     <div className={styles.ribin}>
       <div className={styles.ribinChild} />
@@ -9,10 +38,10 @@ const Ribin = () => {
       <div className={styles.rectangleDiv} />
       <div className={styles.ribinChild1} />
       <img className={styles.ribinLogo1Icon} alt="" src="/ribinlogo-1@2x.png" />
-      <div className={styles.partners}>Partners</div>
-      <div className={styles.collection}>Collection</div>
-      <div className={styles.aboutUs}>about us</div>
-      <div className={styles.download}>download</div>
+      <div className={styles.partners} style={{cursor: 'pointer'}} onClick={() => navigateToBrands(sectionOneRef)}>Partners</div>
+      <div className={styles.collection} style={{cursor: 'pointer'}} onClick={() => navigateToCollection(sectionTwoRef)}>Collection</div>
+      <div className={styles.aboutUs} style={{cursor: 'pointer'}} onClick={() => navigateToAboutUs(sectionThreeRef)}>about us</div>
+      <div className={styles.download} style={{cursor: 'pointer'}} onClick={() => navigateToDownload(sectionFourRef)}>download</div>
       <div className={styles.giftMemRableContainer}>
         <p className={styles.giftMem}>Gift Mem rable</p>
         <p className={styles.giftMem}>Experiences</p>
@@ -25,15 +54,17 @@ const Ribin = () => {
       </div>
       <img className={styles.layer1Icon} alt="" src="/layer-1.svg" />
       <div className={styles.ribinChild2} />
-      <div className={styles.brandsThatTrust}>Brands that Trust Us</div>
-      <div className={styles.aboutUs1}>ABOUT US</div>
+     
+      <div className={styles.brandsThatTrust} ref={sectionOneRef} id="section1" >Brands that Trust Us</div>
+     
+      <div className={styles.aboutUs1} ref={sectionThreeRef} id="section3">ABOUT US</div>
       <img
         className={styles.ribinWebsite22Icon}
         alt=""
         src="/ribinwebsite-2-2@2x.png"
       />
       <div className={styles.ribinChild3} />
-      <div className={styles.ourCollection}>OUR COLLECTION</div>
+      <div className={styles.ourCollection}  ref={sectionTwoRef} id="section2">OUR COLLECTION</div>
       <div className={styles.browseOurCollectionContainer}>
         <p className={styles.giftMem}>
           Browse our collection of experiences today
@@ -67,7 +98,7 @@ const Ribin = () => {
       <img className={styles.asset22x1} alt="" src="/asset-22x-1@2x.png" />
       <img className={styles.asset22x2} alt="" src="/asset-22x-2@2x.png" />
       <img className={styles.asset32x1} alt="" src="/asset-32x-1@2x.png" />
-      <div className={styles.downloadTheAppContainer}>
+      <div className={styles.downloadTheAppContainer} ref={sectionFourRef} id="section4">
         <p className={styles.giftMem}>Download the app now and</p>
         <p className={styles.giftMem}>sign up to get a gift card</p>
         <p className={styles.giftMem}>worth $350 for FREE</p>
