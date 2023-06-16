@@ -1,0 +1,431 @@
+.asset52x1,
+.ribinChild {
+  position: absolute;
+  left: 0;
+  width: 1728px;
+}
+.ribinChild {
+  top: 146px;
+  background-color: #f09ea6;
+  height: 680px;
+}
+.asset52x1 {
+  top: 138px;
+  height: 689px;
+  object-fit: cover;
+}
+.ribinItem {
+  position: absolute;
+  top: 2261px;
+  left: 703px;
+  border-radius: var(--br-17xl-5);
+  background-color: var(--color-orangered);
+  width: 320px;
+  height: 73px;
+}
+.rectangleDiv,
+.ribinChild1,
+.ribinInner {
+  position: absolute;
+  top: 1524px;
+  left: 0;
+  background-color: var(--color-red);
+  width: 1728px;
+  height: 688px;
+}
+.rectangleDiv,
+.ribinChild1 {
+  top: 3002px;
+  background-color: var(--color-orangered);
+  height: 497px;
+}
+.ribinChild1 {
+  top: 4283px;
+  height: 700px;
+}
+.ribinLogo1Icon {
+  position: absolute;
+  top: 20px;
+  left: 51px;
+  width: 295px;
+  height: 106px;
+  object-fit: cover;
+}
+.aboutUs,
+.collection,
+.download,
+.partners {
+  position: absolute;
+  top: 56px;
+  left: 423px;
+  font-size: var(--font-size-13xl);
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-brown);
+  text-align: left;
+}
+.aboutUs,
+.collection,
+.download {
+  left: 641px;
+}
+.aboutUs,
+.download {
+  left: 913px;
+}
+.download {
+  left: 1145px;
+}
+.giftMem {
+  margin: 0;
+}
+.giftMemRableContainer,
+.toYourLovedContainer {
+  position: absolute;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.giftMemRableContainer {
+  top: 291px;
+  left: 84px;
+  font-size: 78px;
+  line-height: 126.1%;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #b61717;
+  white-space: pre-wrap;
+}
+.toYourLovedContainer {
+  top: 501px;
+  left: 90px;
+  font-size: var(--font-size-29xl);
+  line-height: 0%;
+  font-weight: 500;
+  color: var(--color-orangered);
+}
+.layer1Icon {
+  position: absolute;
+  top: 290px;
+  left: 500px;
+  width: 61px;
+  height: 75px;
+  overflow: hidden;
+}
+.ribinChild2 {
+  position: absolute;
+  top: 893px;
+  left: 614px;
+  border-radius: var(--br-17xl-5);
+  background-color: var(--color-orangered);
+  width: 499px;
+  height: 73px;
+}
+.aboutUs1,
+.brandsThatTrust {
+  position: absolute;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.brandsThatTrust {
+  top: 905px;
+  left: 647px;
+  text-align: left;
+}
+.aboutUs1 {
+  top: 2273px;
+  left: 771px;
+}
+.ribinWebsite22Icon {
+  position: absolute;
+  top: 980px;
+  left: 142px;
+  width: 1444px;
+  height: 518px;
+  object-fit: cover;
+}
+.ribinChild3 {
+  position: absolute;
+  top: 1582px;
+  left: 614px;
+  border-radius: var(--br-17xl-5);
+  background-color: var(--color-white);
+  width: 499px;
+  height: 73px;
+}
+.ourCollection {
+  position: absolute;
+  top: 1594px;
+  left: 704px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--color-red);
+  text-align: left;
+}
+.browseOurCollectionContainer {
+  position: absolute;
+  top: 1695px;
+  left: 472px;
+  font-size: var(--font-size-21xl);
+  line-height: 126.1%;
+  font-weight: 500;
+}
+.asset12x1 {
+  position: absolute;
+  top: 1844px;
+  left: 132px;
+  width: 1463px;
+  height: 259px;
+  object-fit: cover;
+}
+.foodBeveragesContainer {
+  position: absolute;
+  left: 138px;
+  line-height: 111.5%;
+  font-weight: 900;
+}
+.fashion,
+.foodBeveragesContainer,
+.jewelry {
+  top: 2062px;
+  font-size: var(--font-size-xl);
+}
+.fashion {
+  position: absolute;
+  left: 349px;
+  line-height: 111.5%;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.jewelry {
+  left: 553px;
+}
+.accessories,
+.accessories1,
+.entertainment,
+.fitness,
+.jewelry {
+  position: absolute;
+  line-height: 111.5%;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.entertainment {
+  top: 2114px;
+  left: 734px;
+  font-size: 30px;
+}
+.accessories,
+.accessories1,
+.fitness {
+  top: 2062px;
+  left: 1082px;
+  font-size: var(--font-size-xl);
+}
+.accessories,
+.accessories1 {
+  left: 1260px;
+}
+.accessories1 {
+  left: 1457px;
+}
+.ribinAppIsContainer,
+.ribinIsAContainer {
+  position: absolute;
+  top: 2448px;
+  left: 132px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: -0.01em;
+  line-height: 126.1%;
+  font-weight: 900;
+  color: var(--color-orangered);
+  text-align: left;
+}
+.ribinIsAContainer {
+  top: 2597px;
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.02em;
+  font-weight: 800;
+}
+.asset22x1,
+.asset22x2,
+.asset32x1 {
+  position: absolute;
+  top: 2337px;
+  left: 1081px;
+  width: 621px;
+  height: 549px;
+  object-fit: cover;
+}
+.asset22x2,
+.asset32x1 {
+  top: 3325px;
+  left: 665px;
+  width: 476px;
+  height: 66px;
+}
+.asset32x1 {
+  top: 2916px;
+  left: 128px;
+  width: 420px;
+  height: 676px;
+}
+.downloadTheAppContainer {
+  position: absolute;
+  top: 3079px;
+  left: 665px;
+  font-size: var(--font-size-29xl);
+  letter-spacing: 0.04em;
+  line-height: 141.1%;
+  font-weight: 900;
+  text-align: left;
+}
+.ribinChild4 {
+  position: absolute;
+  top: 3657px;
+  left: 265px;
+  border-radius: var(--br-17xl-5);
+  background-color: var(--color-orangered);
+  width: 320px;
+  height: 73px;
+}
+.contactUs {
+  position: absolute;
+  top: 3669px;
+  left: 310px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.ribinChild5 {
+  position: absolute;
+  top: 3657px;
+  left: 1114px;
+  border-radius: var(--br-17xl-5);
+  background-color: var(--color-orangered);
+  width: 348px;
+  height: 73px;
+}
+.followUsOn {
+  position: absolute;
+  top: 3669px;
+  left: 1147px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.lineDiv {
+  position: absolute;
+  top: 3654.5px;
+  left: 862.5px;
+  border-right: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+  width: 1px;
+  height: 560px;
+}
+.ribinChild6,
+.ribinChild7,
+.ribinChild8 {
+  position: absolute;
+  top: 3799px;
+  left: 125px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 609px;
+  height: 68px;
+}
+.ribinChild7,
+.ribinChild8 {
+  top: 3914px;
+}
+.ribinChild8 {
+  top: 4029px;
+}
+.johnDoe,
+.johndoegmailcom,
+.xxxxxx99 {
+  position: absolute;
+  top: 3813px;
+  left: 172px;
+  font-size: var(--font-size-13xl);
+  letter-spacing: 0.02em;
+  line-height: 126.1%;
+  font-weight: 500;
+  color: var(--color-lightgray);
+  text-align: left;
+}
+.johndoegmailcom,
+.xxxxxx99 {
+  top: 3928px;
+}
+.xxxxxx99 {
+  top: 4043px;
+}
+.ribinChild9 {
+  position: absolute;
+  top: 4147px;
+  left: 331px;
+  border-radius: 30px;
+  background-color: var(--color-orangered);
+  width: 198px;
+  height: 61px;
+}
+.send {
+  position: absolute;
+  top: 4153px;
+  left: 380px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.asset32x2 {
+  position: absolute;
+  top: 3765px;
+  left: 991px;
+  width: 611px;
+  height: 412px;
+  object-fit: cover;
+}
+.companyOurServiceContainer,
+.contactUsFaqContainer {
+  position: absolute;
+  top: 4444px;
+  left: 150px;
+  letter-spacing: 0.01em;
+  line-height: 0%;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.contactUsFaqContainer {
+  left: 1258px;
+}
+.wantToGiveContainer {
+  position: absolute;
+  top: 4643px;
+  left: 629px;
+  font-size: 28px;
+  letter-spacing: 0.02em;
+  line-height: 126.1%;
+  font-weight: 500;
+}
+.asset42x1 {
+  position: absolute;
+  top: 4480px;
+  left: 589px;
+  width: 501px;
+  height: 155px;
+  object-fit: cover;
+}
+.ribin {
+  position: relative;
+  background-color: #ffefe5;
+  width: 100%;
+  height: 4974px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-avenir);
+}
