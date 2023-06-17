@@ -648,6 +648,27 @@
   }
 
 
+  .ribinChild5 {
+    top: 82%;
+    left: 9%;
+  }
+
+  .followUsOn {
+    top: 82.3%;
+    left: 17%;
+  }
+
+  .asset32x2 {
+    position: absolute;
+    top: 84%;
+    left: 2%;
+    right: 2%;
+    width: 100%;
+    height: 412px;
+    object-fit: cover;
+  }
+
+
 
 
 }
