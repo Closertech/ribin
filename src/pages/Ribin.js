@@ -38,7 +38,7 @@ const Ribin = () => {
       <div className={styles.aboutUs}>about us</div>
       <div className={styles.download}>download</div>
       <div className={styles.giftMemRableContainer}>
-        <p className={styles.giftMem}>Gift Mem  Rable</p>
+        <p className={styles.giftMem}>Gift Mem   Rable</p>
         <p className={styles.giftMem}>Experiences</p>
       </div>
       <div className={styles.toYourLovedContainer} style={{ marginTop: '40px' }}>

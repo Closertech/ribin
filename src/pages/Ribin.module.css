@@ -102,7 +102,7 @@
 
 .giftMemRableContainer {
   top: 291px;
-  left: 84px;
+  left: 74px;
   font-size: 78px;
   line-height: 126.1%;
   text-transform: uppercase;
@@ -113,7 +113,7 @@
 
 .toYourLovedContainer {
   top: 501px;
-  left: 90px;
+  left: 74px;
   font-size: var(--font-size-29xl);
   line-height: 0%;
   font-weight: 500;
@@ -884,9 +884,10 @@
   }
 }
 
+/* Asset 1@2x 1 */
 
 
-/*----------------------Laptops Screens--------------------------*/
+/*-------------------LAptop Screens--------------------*/
 
 @media screen and (min-width: 1025px) and (max-width: 1300px) {
 
