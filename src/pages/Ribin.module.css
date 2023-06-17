@@ -495,7 +495,6 @@
 
   .ribinItem {
     position: absolute;
-    top: 2.1%;
     left: 0%;
     border-radius: 0;
     background-color: var(--color-orangered);
@@ -504,7 +503,7 @@
   }
 
   .asset52x1 {
-    top: 2.5%;
+    top: 2.66%;
     height: 540px;
     object-fit: cover;
   }
@@ -585,8 +584,70 @@
     left: 14%;
     width: 295px;
     height: 90px;
-    object-fit: cover;
   }
+
+
+  .ribinChild4 {
+    top: 73.5%;
+    left: 13%;
+    border-radius: var(--br-17xl-5);
+    width: 320px;
+  }
+
+  .contactUs {
+    position: absolute;
+    top: 73.6;
+    left: 23%;
+  }
+
+  .ribinChild6,
+  .ribinChild7,
+  .ribinChild8 {
+    top: 75.6%;
+    left: 8%;
+    width: 350px;
+    height: 50px;
+  }
+
+  .ribinChild7,
+  .ribinChild8 {
+    top: 76.8%;
+  }
+
+  .ribinChild8 {
+    top: 78%;
+  }
+
+  .johnDoe,
+  .johndoegmailcom,
+  .xxxxxx99 {
+    top: 75.7%;
+    left: 35%;
+    text-align: center;
+  }
+
+  .johndoegmailcom,
+  .xxxxxx99 {
+    top: 76.9%;
+    left: 18%;
+  }
+
+  .xxxxxx99 {
+    top: 78.1%;
+    left: 30%;
+  }
+
+  .ribinChild9 {
+    top: 80%;
+    left: 25%;
+  }
+
+  .send {
+    top: 80.2%;
+    left: 37%;
+  }
+
+
 
 
 }
