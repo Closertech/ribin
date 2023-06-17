@@ -14,13 +14,13 @@ const Ribin = () => {
       <div className={styles.aboutUs}>about us</div>
       <div className={styles.download}>download</div>
       <div className={styles.giftMemRableContainer}>
-        <p className={styles.giftMem}>Gift Mem rable</p>
+        <p className={styles.giftMem}>Gift Mem  Rable</p>
         <p className={styles.giftMem}>Experiences</p>
       </div>
-      <div className={styles.toYourLovedContainer} style={{marginTop: '40px'}}>
+      <div className={styles.toYourLovedContainer} style={{ marginTop: '40px' }}>
         <p className={styles.giftMem}>to your loved ones from</p>
         <div>
-        <p className={styles.giftMem} style={{position: "relative", top:"50px"}}>Anywhere. Anytime!</p>
+          <p className={styles.giftMem} style={{ position: "relative", top: "50px" }}>Anywhere. Anytime!</p>
         </div>
       </div>
       <img className={styles.layer1Icon} alt="" src="/layer-1.svg" />
@@ -89,20 +89,20 @@ const Ribin = () => {
       <div className={styles.companyOurServiceContainer}>
         <p className={styles.giftMem}>COMPANY</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{position: 'relative', top:'100px'}}>OUR SERVICE</p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '100px' }}>OUR SERVICE</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{position: 'relative', top:'200px'}}>TESTIMONIAL</p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '200px' }}>TESTIMONIAL</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{position: 'relative', top:'300px'}}>FEATURED</p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '300px' }}>FEATURED</p>
       </div>
       <div className={styles.contactUsFaqContainer}>
         <p className={styles.giftMem}>CONTACT US</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{position: 'relative', top:'100px'}}>FAQ</p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '100px' }}>FAQ</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{position: 'relative', top:'200px'}}>TERM OF <span style={{position: 'relative'}} >SERVICE</span></p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '200px' }}>TERM OF <span style={{ position: 'relative' }} >SERVICE</span></p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{position: 'relative', top:'300px'}}>COPYRIGHT</p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '300px' }}>COPYRIGHT</p>
       </div>
       <div className={styles.wantToGiveContainer}>
         <p className={styles.giftMem}>Want to give something to</p>
