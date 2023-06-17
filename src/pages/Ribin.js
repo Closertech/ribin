@@ -1,5 +1,29 @@
 import styles from "./Ribin.module.css";
+import React, { useState, useEffect } from "react";
 const Ribin = () => {
+  const [about, setAbout] = useState('');
+
+  useEffect(() => {
+    const handleStyles = () => {
+      const isMobile = window.innerWidth <= 600; // Define your screen size threshold here
+      const newAbout = isMobile
+        ? 'position: "relative", left:"20px"': 'position: "relative", left:"0px"';
+      setAbout(newAbout);
+      
+
+      
+    };
+    handleStyles();
+    window.addEventListener('resize', handleStyles);
+
+    return () => {
+      window.removeEventListener('resize', handleStyles);
+    };
+  }, []);
+
+
+
+
   return (
     <div className={styles.ribin}>
       <div className={styles.ribinChild} />
@@ -26,7 +50,7 @@ const Ribin = () => {
       <img className={styles.layer1Icon} alt="" src="/layer-1.svg" />
       <div className={styles.ribinChild2} />
       <div className={styles.brandsThatTrust}>Brands that Trust Us</div>
-      <div className={styles.aboutUs1}>ABOUT US</div>
+      <div className={styles.aboutUs1} style={{about}}>ABOUT US</div>
       <img
         className={styles.ribinWebsite22Icon}
         alt=""
