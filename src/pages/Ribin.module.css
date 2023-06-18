@@ -766,21 +766,17 @@
 
 
   .giftMemRableContainer {
-    top: 250px;
+    top: 5.1%;
     left: 8%;
-    font-size: 50px;
+    font-size: 3.9vw;
     line-height: 115%;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #b61717;
-    white-space: pre-wrap;
   }
 
 
   .toYourLovedContainer {
-    top: 420px;
+    top: 7.5%;
     left: 8%;
-    font-size: var(--font-size-20xl);
+    font-size: 3vw;
     line-height: 0%;
     font-weight: 500;
     color: var(--color-orangered);
@@ -794,7 +790,7 @@
     position: absolute;
     top: 1%;
     left: 38%;
-    font-size: 22px;
+    font-size: 1.7vw;
     text-transform: uppercase;
     font-weight: 1000;
     color: var(--color-brown);
@@ -873,12 +869,12 @@
     left: 0.2%;
     letter-spacing: -0.01em;
     line-height: 120%;
-    font-size: 50px;
+    font-size: 4vw;
   }
 
   .ribinIsAContainer {
     top: 48.6%;
-    font-size: 40px;
+    font-size: 3vw;
     letter-spacing: 0.01em;
     width: 80%;
     font-weight: 800;
@@ -948,21 +944,13 @@
   }
 
   .ourCollection {
-    top: 29.4%;
+    top: 29.3%;
     left: 36%;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: var(--color-red);
-    text-align: left;
   }
 
   .browseOurCollectionContainer {
     top: 32%;
     left: 23%;
-    font-size: var(--font-size-21xl);
-    line-height: 126.1%;
-    font-weight: 500;
   }
 
   .ribinChild1 {
@@ -1136,7 +1124,7 @@
   .wantToGiveContainer {
     top: 91%;
     left: 39%;
-    font-size: 25px;
+    font-size: 2vw;
     letter-spacing: 0.01em;
     line-height: 120%;
   }
