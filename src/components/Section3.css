@@ -1,0 +1,31 @@
+.section3{
+    background: #ffefe5;
+}
+.about-btn{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4vw;
+    color: #FFFFFF !important;
+    font-family: Avenir;
+    font-weight: 900;
+    border-radius: 36.5px;
+    background: #C70000;
+}
+.content-3{
+    padding-top: 4vw;
+}
+.sec-3-heading{
+    margin-top: 17%;
+    color: #C70000;
+    font-weight: 800;
+    font-size: 2vw;
+    text-align: start !important;
+}
+.sec-3-subheading{
+    margin-top: 7%;
+    color: #C70000;
+    font-weight: 600;
+    font-size: 1.8vw;
+    text-align: start !important;
+}

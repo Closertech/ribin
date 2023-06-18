@@ -1,52 +1,25 @@
-import {
-  Routes,
-  Route,
-  useNavigationType,
-  useLocation,
-} from "react-router-dom";
-import Ribin from "./pages/Ribin";
-import { useEffect } from "react";
+import Navbar from '../src/components/Navbar';
+import Hero from '../src/components/Hero';
+import Section1 from '../src/components/Section1';
+import Section2 from '../src/components/Section2';
+import Section3 from '../src/components/Section3';
+import Section4 from '../src/components/Section4';
+import Section5 from '../src/components/Section5';
+import Footer from '../src/components/Footer';
 
 function App() {
-  const action = useNavigationType();
-  const location = useLocation();
-  const pathname = location.pathname;
-
-  useEffect(() => {
-    if (action !== "POP") {
-      window.scrollTo(0, 0);
-    }
-  }, [action, pathname]);
-
-  useEffect(() => {
-    let title = "";
-    let metaDescription = "";
-
-    switch (pathname) {
-      case "/":
-        title = "";
-        metaDescription = "";
-        break;
-    }
-
-    if (title) {
-      document.title = title;
-    }
-
-    if (metaDescription) {
-      const metaDescriptionTag = document.querySelector(
-        'head > meta[name="description"]'
-      );
-      if (metaDescriptionTag) {
-        metaDescriptionTag.content = metaDescription;
-      }
-    }
-  }, [pathname]);
-
   return (
-    <Routes>
-      <Route path="/" element={<Ribin />} />
-    </Routes>
+    <>
+    <Navbar />
+    <Hero />
+    <Section1 />
+    <Section2 />
+    <Section3 />
+    <Section4 />
+    <Section5 />
+    <Footer />
+    </>
   );
 }
+
 export default App;

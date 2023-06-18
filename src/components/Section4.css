@@ -1,0 +1,29 @@
+.section4{
+    background: #C70000;
+}
+.sec-4-heading{
+    font-family: Avenir;
+    margin-top: 4%;
+    padding-left: 5%;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 2.5vw;
+    text-align: start !important;
+    max-width: 40%;
+}
+/* .sec-3-subheading{
+    margin-top: 7%;
+    color: #C70000;
+    font-weight: 600;
+    font-size: 1.8vw;
+    text-align: start !important;
+} */
+.sec-4-img{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: -18%;
+    margin-bottom: -18%;
+}
+.download-btn{
+    padding-top: 5%;
+}
