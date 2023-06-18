@@ -840,6 +840,14 @@
     font-weight: 800;
   }
 
+  .layer1Icon {
+    top: 4.8%;
+    left: 28%;
+    width: 50px;
+    height: 60px;
+    overflow: hidden;
+  }
+
   .brandsThatTrust {
     top: 14.3%;
     left: 34%;
