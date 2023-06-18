@@ -7,11 +7,11 @@ const Ribin = () => {
     const handleStyles = () => {
       const isMobile = window.innerWidth <= 600; // Define your screen size threshold here
       const newAbout = isMobile
-        ? 'position: "relative", left:"20px"': 'position: "relative", left:"0px"';
+        ? 'position: "relative", left:"20px"' : 'position: "relative", left:"0px"';
       setAbout(newAbout);
-      
 
-      
+
+
     };
     handleStyles();
     window.addEventListener('resize', handleStyles);
@@ -50,7 +50,8 @@ const Ribin = () => {
       <img className={styles.layer1Icon} alt="" src="/layer-1.svg" />
       <div className={styles.ribinChild2} />
       <div className={styles.brandsThatTrust}>Brands that Trust Us</div>
-      <div className={styles.aboutUs1} style={{about}}>ABOUT US</div>
+
+      <div className={styles.aboutUs1} style={{ about }}>ABOUT US</div>
       <img
         className={styles.ribinWebsite22Icon}
         alt=""
