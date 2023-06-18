@@ -6,8 +6,8 @@ export default function Section5() {
         <div class="row">
             <div class="col">
                 <div className="text-center content-5">
-                    <button className="about-btn">CONTACT US</button>
-                    <form className='form mt-5'> 
+                    <button className="contact-btn">CONTACT US</button>
+                    <form className='form'> 
                         <input type="text" name="" id="" placeholder="John Doe"/>
                         <input type="email" name="" id="" placeholder="johndoe@gmail.com"/>
                         <input type="number" name="" id="" placeholder="99xxxxxx99" />
@@ -22,7 +22,7 @@ export default function Section5() {
     </div>
     <div class="col text-center">
         <div className="text-center content-5-2">
-            <button className="about-btn">FOLLOW US ON</button>
+            <button className="contact-btn">FOLLOW US ON</button>
         </div>
         <img src="./map.png" width="100%" className="text-center sec-5-img" alt="" />
     </div>

@@ -11,8 +11,15 @@
 .foo-mid-col{
     padding-top: 6vw;
     font-weight: 500;
+    font-size: 1.4vw;
     max-width: 20vw;
 }
 .footer-logo{
     width: 100%;
+}
+.foo-link{
+    padding: 3%
+}
+.foo-mid-link{
+    padding: 3%
 }
