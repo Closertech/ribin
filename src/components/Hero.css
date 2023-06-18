@@ -10,6 +10,7 @@
     bottom: 30vw;
     top: 20vw;
     padding-left: 5vw;
+    z-index: 0;
 }
 .hero-heading{
     font-size: 4vw;
@@ -30,16 +31,16 @@
     /* padding-bottom: 20px; */
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     .hero-text{
-        /* bottom: 0vw; */
+        bottom: 0vw;
         top: 30vw;
     }
-  }
+  } */
 @media only screen and (max-width: 400px) {
     .hero-text{
         /* bottom: 0vw; */
-        top: 40vw;
+        top: 20vw;
     }
     .gift-img{
         /* padding-right: 10px; */

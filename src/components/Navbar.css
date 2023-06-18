@@ -18,7 +18,8 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 120px;
+	height: 15vw;
+	max-height: 120px;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
@@ -62,6 +63,7 @@ nav {
 	}
 
 	header nav {
+		z-index: 1;
 		position: fixed;
 		top: -100vh;
 		left: 0;
@@ -94,7 +96,8 @@ nav {
   /* position: absolute; */
   /* left: 51px; */
 /* top: 20px; */
-  width: 15rem;
+  width: 20vw;
+  max-width: 15rem;
   /* margin: 20px;
   padding-top: 30px; */
 }
