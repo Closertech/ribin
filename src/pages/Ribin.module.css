@@ -122,8 +122,8 @@
 
 .layer1Icon {
   position: absolute;
-  top: 290px;
-  left: 500px;
+  top: 15.7vw;
+  left: 27vw;
   width: 61px;
   height: 75px;
   overflow: hidden;
@@ -317,7 +317,7 @@
   position: absolute;
   top: 3079px;
   left: 665px;
-  font-size: var(--font-size-29xl);
+  font-size: 2.7vw;
   letter-spacing: 0.04em;
   line-height: 141.1%;
   font-weight: 900;
@@ -837,8 +837,8 @@
   }
 
   .layer1Icon {
-    top: 4.8%;
-    left: 28%;
+    top: 18.7vw;
+    left: 28vw;
     width: 50px;
     height: 60px;
     overflow: hidden;

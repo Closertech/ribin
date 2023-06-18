@@ -125,7 +125,7 @@ const Ribin = () => {
         <p className={styles.giftMem}>&nbsp;</p>
         <p className={styles.giftMem} style={{ position: 'relative', top: '100px' }}>FAQ</p>
         <p className={styles.giftMem}>&nbsp;</p>
-        <p className={styles.giftMem} style={{ position: 'relative', top: '200px', right: '120px' }}>TERM OF <span style={{ position: 'relative', right: '-180px' }} >SERVICE</span></p>
+        <p className={styles.giftMem} style={{ position: 'relative', top: '200px' }}>TERM OF SERVICE</p>
         <p className={styles.giftMem}>&nbsp;</p>
         <p className={styles.giftMem} style={{ position: 'relative', top: '300px' }}>COPYRIGHT</p>
       </div>
