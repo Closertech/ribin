@@ -2,7 +2,7 @@ import React from 'react'
 import './Section3.css'
 export default function Section1() {
   return (
-    <section className="section3">
+    <section className="section3" id="aboutus">
       <div className="text-center content-3">
         <button className="about-btn">ABOUT US</button>
       </div>

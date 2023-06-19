@@ -15,11 +15,11 @@ function Navbar() {
 		<header>
 			<img src="./logo.png" className="logo" alt="" />
 			<nav ref={navRef}>
-				<a href="/#">PARTNERS</a>
-				<a href="/#">COLLECTION</a>
-				<a href="/#">ABOUT US</a>
-				<a href="/#">DOWNLOAD</a>
-				<a href="/#">CONTACT US</a>
+				<a href="#partners">PARTNERS</a>
+				<a href="#collection">COLLECTION</a>
+				<a href="#aboutus">ABOUT US</a>
+				<a href="#download">DOWNLOAD</a>
+				<a href="#countactus">CONTACT US</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

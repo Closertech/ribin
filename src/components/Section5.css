@@ -43,6 +43,7 @@
     height: 36vw;
 }
 .sec-5-img{
+    height: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
     margin-left: -8vw;
@@ -60,4 +61,10 @@
     background: #C70000;
     margin-top: 7%;
     margin-bottom: 5%;
+}
+.fb-div{
+    padding-bottom: 15%;
+}
+.instagram-div{
+    padding-bottom: 15%;
 }

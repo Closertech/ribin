@@ -6,7 +6,7 @@ import Section3 from '../src/components/Section3';
 import Section4 from '../src/components/Section4';
 import Section5 from '../src/components/Section5';
 import Footer from '../src/components/Footer';
-
+import './App.css'
 function App() {
   return (
     <>
