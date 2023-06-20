@@ -1,0 +1,30 @@
+.section4{
+    background: #C70000;
+}
+.sec-4-heading{
+    font-family: Avenir;
+    margin-top: 4%;
+    padding-left: 5%;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 2.5vw;
+    text-align: start !important;
+    max-width: 40%;
+}
+.sec-4-img{
+    padding-left: 7%;
+    padding-right: 7%;
+    margin-top: -18%;
+    margin-bottom: -18%;
+}
+.download-btn{
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.playstore{
+    width: 12vw;
+}
+.appstore{
+    width: 9.3vw;
+    padding-top: 0.8%;
+}

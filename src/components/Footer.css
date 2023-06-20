@@ -1,0 +1,25 @@
+.footer{
+    background: #C70000;
+    color: white;
+}
+.foo-col{
+    padding-top: 6vw;
+    font-family: Avenir;
+    font-weight: 600;
+    font-size: 1.4vw;
+}
+.foo-mid-col{
+    padding-top: 6vw;
+    font-weight: 500;
+    font-size: 1.4vw;
+    max-width: 20vw;
+}
+.footer-logo{
+    width: 100%;
+}
+.foo-link{
+    padding: 3%
+}
+.foo-mid-link{
+    padding: 3%
+}

@@ -1,0 +1,22 @@
+.section1{
+    background: #ffefe5;
+}
+.brand-btn{
+    width: 30vw;
+    padding: 1vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4vw;
+    color: #FFFFFF !important;
+    font-family: Avenir;
+    font-weight: 900;
+    border-radius: 36.5px;
+    background: #C70000 !important;
+}
+.content-1{
+    padding-top: 4vw;
+}
+.sec-1-img{
+    padding-left: 50px;
+    padding-right: 50px;
+}
