@@ -13,7 +13,13 @@ function Navbar() {
 
 	return (
 		<header>
-			<img src="./logo.png" className="logo" alt="" />
+			<div className="logos">
+				<img src="./logo.png" className="logo" alt="" />
+				<div className="linearize">
+					<p>backed by</p>
+					<img src="./100x.png" className="backed" alt="" />
+				</div>
+			</div>
 			<nav ref={navRef}>
 				<a href="#partners">PARTNERS</a>
 				<a href="#collection">COLLECTION</a>
