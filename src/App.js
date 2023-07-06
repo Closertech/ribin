@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from '../src/components/Footer';
 import Hero from '../src/components/Hero';
 import Navbar from '../src/components/Navbar';
@@ -14,7 +14,6 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/" element={<>
           <Navbar />
           <Hero />
@@ -25,6 +24,7 @@ function App() {
           <Section5 />
           <Footer />
         </>} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </Router>
   );
