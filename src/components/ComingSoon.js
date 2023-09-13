@@ -26,6 +26,7 @@ export default function ComingSoon() {
                 height={260}
                 width={260}
                   />
+                   <p className='text-live'>Yet, our app is live !</p>
                   <div className="d-flex">
                     <div className="playstore">
                       <a href="https://play.google.com/store/apps/details?id=com.closertech.ribin">

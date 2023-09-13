@@ -57,6 +57,13 @@
     color: #581781;
     font-weight: 700;
     margin-top: 16px;
+    text-align: center;
+}
+
+.text-live {
+    color: #581781;
+    font-weight: 700;
+    text-align: center;
 }
 
 .d-flex {
