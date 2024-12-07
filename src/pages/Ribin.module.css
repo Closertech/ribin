@@ -567,7 +567,7 @@
 
   .asset52x1 {
     top: 2.66%;
-    height: 540px;
+    height: 5%;
     object-fit: cover;
   }
 
@@ -593,7 +593,7 @@
   .giftMemRableContainer {
     top: 250px;
     left: 8%;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 115%;
     text-transform: uppercase;
     font-weight: 900;
@@ -603,12 +603,13 @@
 
 
   .toYourLovedContainer {
-    top: 420px;
+    top: 350px;
     left: 8%;
-    font-size: var(--font-size-20xl);
+    font-size: 20px;
     line-height: 0%;
     font-weight: 500;
     color: var(--color-orangered);
+    
   }
 
 
